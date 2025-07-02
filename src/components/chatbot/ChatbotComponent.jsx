@@ -140,7 +140,7 @@ const ChatbotComponent = () => {
             {!isChatOpen && (
                 <button className="chatbot-open-button" onClick={toggleChat}>
                     <img
-                        src="/Images/operator.png"
+                        src="/images/operator.png"
                         alt="Chat Icon"
                         style={{ width: "100px", height: "auto" }}
                     />
