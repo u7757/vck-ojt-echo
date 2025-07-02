@@ -1,11 +1,11 @@
 // / src/components/Chatbot/ChatbotComponent.jsx
 import React, { useState, useEffect, useRef } from "react";
-import { getEmbeddings, cosineSimilarity } from "../../utils/aiService"; // Path adjusted
+import { getEmbeddings, cosineSimilarity } from "../utils/aiService"; // Path adjusted
 
-import { SIMILARITY_THRESHOLD } from "../../utils/constants"; // Path adjusted
-import "./chatbot.css";
-import useOnlineStatus from "../../hooks/useOnlineSatus";
-import KNOWLEDGE_BASE_DATA from "../../data/knowlageBase.json";
+import { SIMILARITY_THRESHOLD } from "../utils/constants"; // Path adjusted
+import "./ChatbotComponent.css";
+import useOnlineStatus from "../hooks/useOnlineSatus";
+import KNOWLEDGE_BASE_DATA from "../data/knowlageBase.json";
 const ChatbotComponent = () => {
     const [messages, setMessages] = useState([
         { text: KNOWLEDGE_BASE_DATA.greeting.response, sender: "bot" },
