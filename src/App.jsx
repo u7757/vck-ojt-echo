@@ -9,7 +9,7 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import ChatbotComponent from "./components/chatbot/chatbot";
+import ChatbotComponent from "./components/chatbot/chatbot.jsx";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";git
 
