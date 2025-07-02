@@ -4,12 +4,12 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
-import "./styles/pages.css";
+import "./styles/page.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import ChatbotComponent from "./components/chatbot/chatbot.jsx";
+import ChatbotComponent from "./components/chatbot/ChatbotComponents";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";git
 
