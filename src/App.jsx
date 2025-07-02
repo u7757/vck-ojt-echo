@@ -11,7 +11,7 @@ import AdmissionsPage from "./pages/AdmissionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ChatbotComponent from "./components/chatbot/chatbot";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import { useState } from "react";
+import { useState } from "react";git
 
 function App() {
   const [showPopup, setShowPopup] = useState(true);
