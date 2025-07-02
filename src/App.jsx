@@ -26,7 +26,7 @@ function App() {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Ujef Mokashi"
-          studentPhotoUrl="src/assets/images/ujef.jpg" // Path to their photo
+          studentPhotoUrl="public/images/ujef.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div> 
