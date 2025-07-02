@@ -14,6 +14,7 @@ const ChatbotComponent = () => {
     const [loading, setLoading] = useState(false);
     const chatMessagesRef = useRef(null);
 
+qaq
 
     const [preparedKnowledgeBase, setPreparedKnowledgeBase] =
         useState(KNOWLEDGE_BASE_DATA);
