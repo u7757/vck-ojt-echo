@@ -8,11 +8,11 @@ import "./styles/page.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
-import NotFoundPage from "./pages/NotFoundPage";
-import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+// import NotFoundPage from "./pages/NotFoundPage";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import { useState } from "react";git
-
+import { useState } from "react";
+// import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import ChatbotComponent from "./components/chatbot/ChatbotComponent";
 function App() {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
@@ -26,7 +26,7 @@ function App() {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Ujef Mokashi"
-          studentPhotoUrl="/images/ujef.jpg" // Path to their photo
+          studentPhotoUrl="/Images/prasad.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div> 
@@ -40,7 +40,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/courses" element={<CoursesPage />} />
             <Route path="/admissions" element={<AdmissionsPage />} />
-            <Route path="*" element={<NotFoundPage />} />
+            {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
           <ChatbotComponent />
         </div>
@@ -51,5 +51,3 @@ function App() {
   );
 }
 export default App;
-
-
