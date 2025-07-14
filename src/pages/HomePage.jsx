@@ -54,6 +54,7 @@ const HomePage = () => {
           companies.
         </li>
       </ul>
+      
       {/* Image Gallery Section */}
       <h2>Campus Life & Facilities</h2>
       <div className="image-gallery">
